@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+p {
+  line-height: 1.4;
+}
+.Main-Heading {
+  margin: 0;
+  width: 20%;
+  /* padding-top: 10px; */
+  margin: 0 auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+  font-size: 6.5rem;
+  display: inline;
+}
+.fa-bars {
+  margin-top: 20px;
+}
+
+.ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  line-height: 50px;
+  font-size: 18px;
+}
+nav {
+  position: fixed;
+  background-color:  #01c5c4;
+  width: 7%;
+  height: 265px;
+  position: absolute;
+  top: 120px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+label.logo {
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+  position: relative;
+}
+
+a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: white;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 300ms ease-in;
+}
+a.active:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.top-container {
+  background-color: #cbeaed;
+  padding-top: 5rem;
+  font-family: monospace;
+  color: #01c5c4;
+  font-size: 24px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 90px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 290px;
+  left: 350px;
+}
+
+.mountain {
+  position: relative;
+  width: 50%;
+}
+.intro {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: #01c5c4;
+  font-size: 2.6rem;
+  font-family: sans-serif;
+}
+h2 {
+  color: #01c5c4;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+h3 {
+  color: #0e918c;
+  font-family: sans-serif;
+}
+h4 {
+  color: #16697a;
+}
+.middle-container {
+}
+.profile {
+  font-size: 1.2rem
+}
+.Experience {
+  font-size: 1.2rem
+}
+.skill-row-1 {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.skill-row-2 {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.para-2 {
+  position: relative;
+  left: 17rem;
+  display: inline-block;
+}
+.bottom-container {
+  background-color: #2ec1ac;
+  padding: 50px 0 20px;
+}
+.copyright {
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+.contact-message {
+  font-size: 1.1rem;
+  width: 40%;
+  margin: 25px auto;
+
+}
+
+hr {
+  margin: 3rem auto 3rem auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #bbbbbb;
+  border-width: 13px;
+  width: 10%;
+  padding-bottom: 20px;
+}
+
+.Pic-1 {
+  margin-top: 3rem;
+  height: 210px;
+  width: 220px;
+}
+.Pic-2 {
+  margin-bottom: 2rem;
+  margin-left: 15rem;
+  width: 35%;
+}
+
+.GIF1 {
+  height: 11rem;
+  width: 14rem;
+  position: relative;
+  left: 29rem;
+  bottom: 12rem;
+}
+.GIF2 {
+  height: 11rem;
+  width: 14rem;
+  position: relative;
+  right: 27rem;
+  top: 1rem;
+}
+
+.prog-pic {
+  width: 8%;
+}
+.copyright {
+  color: #16697a;
+}
+.Info {
+  line-height: 0.3;
+}
+.Info-Tag {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.fa-angle-double-down {
+  font-size: 3.5rem;
+  color: #01c5c5;
+  margin: 50px 0;
+}
+.fa-angle-double-down:hover {
+  font-size: 4rem;
+}
+.fa-map-marker-alt {
+  font-size: 1.7rem;
+  color: #01c5c5;
+}
+.fa-angular {
+  font-size: 4.5rem;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.fa-wine-bottle {
+  font-size: 1.3rem;
+}
+.fa-rocket {
+  font-size: 5.5rem;
+  color: #01c5c5;
+  position: relative;
+  left: 6rem;
+  bottom: 4rem;
+}
+.fa-envelope {
+  font-size: 3rem;
+  color: #01c5c5;
+}
+
+.fa-twitter {
+  font-size: 3rem;
+  color: #006a71;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.fa-twitter:hover {
+  font-size: 4rem;
+  color: white;
+}
+.fa-github {
+  font-size: 3rem;
+  color: #006a71;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.fa-github:hover {
+  font-size: 4rem;
+  color: white;
+}
+.fa-linkedin-in {
+  font-size: 3rem;
+  color: #006a71;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.fa-linkedin-in:hover {
+  font-size: 4rem;
+  color: white;
+}
+
+.myButton {
+	background-color:#01c5c5;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:17px;
+	padding:9px 20px;
+	text-decoration:none;
+  margin-bottom: 40px;
+}
+.myButton:hover {
+	background-color:#22d3d6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
